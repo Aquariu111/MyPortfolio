@@ -41,12 +41,12 @@ header {
         margin: 0;
         margin-bottom: 16px;
     }
-    ul {
+    li {
         margin: 0;
         padding: 0;
         list-style-type: none;
         display: flex;
-        li {
+        ul {
             margin-right: 8px;
         }
     }
