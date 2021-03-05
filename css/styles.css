@@ -28,10 +28,12 @@ header {
 }
 
 .icon img {
-  border-radius: 50%;
-  border-width: 4px;
+  border-radius: 20%;
+  border-width: 3px;
   border-style: solid;
   border-color: white;
+  -webkit-box-shadow: 5px 5px 5px 0px black;
+          box-shadow: 5px 5px 5px 0px black;
 }
 
 .info {
@@ -53,7 +55,7 @@ header {
 .info ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,17 +71,15 @@ header {
 }
 
 .prof {
-  width: 400px;
+  width: 420px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .prof h1 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
 .prof section {
@@ -88,6 +88,11 @@ header {
 
 .prof section h1 {
   font-weight: normal;
+}
+
+.prof section ul {
+  list-style: none;
+  background-color: #dadada;
 }
 
 .prof p {
