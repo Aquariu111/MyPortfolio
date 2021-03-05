@@ -12,7 +12,7 @@ header {
 
 .container {
     /* background-color: pink; */
-    width: 450px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -41,6 +41,11 @@ header {
     p {
         margin: 0;
         margin-bottom: 16px;
+    }
+    .info-list {
+        list-style: none;
+        display: list-item;
+        margin-bottom: 0;
     }
     ul {
         margin: 0;
