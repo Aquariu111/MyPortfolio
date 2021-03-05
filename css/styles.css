@@ -89,16 +89,15 @@ header {
 }
 
 .prof section {
-  margin-bottom: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.466);
 }
 
-.prof section h1 {
+.prof section shadow h1 {
   font-weight: normal;
 }
 
 .prof section ul {
   list-style: none;
-  background-color: #dadada;
 }
 
 .prof p {

@@ -72,20 +72,20 @@ header {
         text-align: center;
     }
     section {
-        margin-bottom: 20px;
-        h1 {
-            font-weight: normal;
-        }
-        ul {
-            list-style: none;
-            background-color: rgb(218, 218, 218);
-        }
+        border: 1px solid rgba(128, 128, 128, 0.466);
+        font-weight: normal;
     }
-    p {
-        line-height: 1.8;
+    ul {
+        list-style: none;
     }
 }
 
+p {
+    line-height: 1.8;
+}
+
+
+}
 footer {
     p {
         text-align: center;
