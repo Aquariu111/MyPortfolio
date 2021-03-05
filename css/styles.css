@@ -11,7 +11,6 @@ header {
 }
 
 .container {
-  /* background-color: pink; */
   width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -21,10 +20,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.icon {
-  /* background-color: skyblue; */
 }
 
 .icon img {
@@ -37,7 +32,6 @@ header {
 }
 
 .info {
-  /* background-color: tomato; */
   margin-left: 32px;
 }
 
@@ -49,7 +43,7 @@ header {
 
 .info p {
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 016px;
 }
 
 .info .info-list {
@@ -76,35 +70,55 @@ header {
   height: 40px;
 }
 
+hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #cccccc;
+  height: 1px;
+}
+
 .prof {
-  width: 420px;
+  font-size: auto;
+  text-align: center;
+  height: auto;
+  background-image: url(/img/backimg.jpg);
+  background-size: cover;
+}
+
+.back-screen {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(255, 255, 255, 0.733);
+  padding-bottom: 20px;
+}
+
+.back-screen .skill {
+  padding-top: 20px;
+}
+
+.back-screen section {
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.prof backgroundi h1 {
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-}
-
-.prof section {
   border: 1px solid rgba(128, 128, 128, 0.466);
   border-radius: 10px;
   font-weight: normal;
+  text-align: left;
+  background-color: white;
 }
 
-.prof ul {
+.back-screen ul {
   list-style: none;
 }
 
-p {
+.back-screen p {
   line-height: 1.8;
 }
 
 footer p {
   text-align: center;
   font-size: 14px;
+  margin-top: 30px;
   margin-bottom: 60px;
   color: grey;
 }
