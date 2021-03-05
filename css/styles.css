@@ -82,7 +82,7 @@ header {
   margin-right: auto;
 }
 
-.prof h1 {
+.prof backgroundi h1 {
   font-weight: bold;
   font-size: 24px;
   text-align: center;
@@ -90,17 +90,15 @@ header {
 
 .prof section {
   border: 1px solid rgba(128, 128, 128, 0.466);
-}
-
-.prof section shadow h1 {
+  border-radius: 10px;
   font-weight: normal;
 }
 
-.prof section ul {
+.prof ul {
   list-style: none;
 }
 
-.prof p {
+p {
   line-height: 1.8;
 }
 

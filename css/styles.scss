@@ -64,27 +64,31 @@ header {
 
 .prof {
     width: 420px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
-    h1 {
-        font-weight: bold;
-        font-size: 24px;
-        text-align: center;
-    }
-    section {
-        border: 1px solid rgba(128, 128, 128, 0.466);
-        font-weight: normal;
-    }
-    ul {
-        list-style: none;
+    font-size: 24px;
+    text-align: center;
+    .back-screen {
+        background-image: url(img\backimg.jpg);
+        background-size: cover;
     }
 }
 
+section {
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+
+}
 p {
     line-height: 1.8;
-}
-
-
 }
 footer {
     p {
