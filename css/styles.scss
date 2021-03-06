@@ -48,7 +48,7 @@ header {
     }
 }
 
-.main {
+/*.main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,7 @@ header {
         font-weight: bold;
         color: rgb(255, 255, 255);
     }
-}
+}*/
 
 .fade-in-bottom {
     opacity: 0;
@@ -69,6 +69,7 @@ header {
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
+
 @keyframes fadein-bottom {
     0% {
         opacity: 0;
@@ -79,6 +80,39 @@ header {
         transform: translateY(0);
     }
 }
+
+.para {//パララックス
+    position: relative;
+    background-image: url('/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg');
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        color:#fff;
+        font-size: 80px;
+        text-align: center;
+        position: fixed;
+        width :100%;
+        top: 40%;
+    }
+}
+
+.contents {
+    position: relative;
+    z-index: 1;
+    height:500px;
+    background: rgb(67, 64, 64);
+    font-size:30px;
+    padding: 50px 100px;
+    h2{
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+    }
+    }
 
 footer {
     p {

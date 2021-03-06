@@ -56,27 +56,19 @@ header .sns-nav ul li {
   font-weight: bold;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
-  background: url(/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg) top center/cover no-repeat;
-}
-
-.main h2 {
-  margin: 0;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-}
-
+/*.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg) top center / cover no-repeat;
+    h2 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+}*/
 .fade-in-bottom {
   opacity: 0;
   -webkit-animation-name: fadein-bottom;
@@ -113,6 +105,42 @@ header .sns-nav ul li {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+}
+
+.para {
+  position: relative;
+  background-image: url("/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.para h2 {
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 40%;
+}
+
+.contents {
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  background: #434040;
+  font-size: 30px;
+  padding: 50px 100px;
+}
+
+.contents h2 {
+  text-align: center;
+}
+
+.contents ul {
+  list-style: none;
 }
 
 footer p {
