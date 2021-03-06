@@ -1,102 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    color: #333;
-    font-family: Verdana, sans-serif;
     margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック",
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2em;
 }
 
 header {
-    background-color: #efefef;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
-.container {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 30px 4% 10px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: transparent;
     display: flex;
     align-items: center;
-}
 
-.icon {
-    img {
-        border-radius: 20%;
-        border-width: 3px;
-        border-style: solid;
-        border-color: rgb(255, 255, 255);
-        box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+    nav {
+        margin: 0 0 0 auto;
     }
-}
-
-.info {
-    margin-left: 32px;
     h1 {
-        font-weight: normal;
-        font-size: 24px;
-        margin: 0;
-    }
-    p {
-        margin: 0;
-        margin-bottom: 016px;
-    }
-    .info-list {
-        list-style: none;
-        display: list-item;
-        margin-bottom: 0;
-    }
-    ul {
         margin: 0;
         padding: 0;
-        list-style: none;
-        display: flex;
-        li {
-            margin-right: 8px;
-            icon-size {
-                width: 40px;
-                height: 40px;
+        font-size: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .sns-nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+
+            li {
+                margin-right: 15px;
+                font-size: 15px;
+                font-weight: bold;
             }
         }
     }
 }
 
-hr {
-    border-width: 1px 0px 0px 0px;
-    border-style: solid;
-    border-color: #cccccc;
-    height: 1px;
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg) top center / cover no-repeat;
+    h2 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
 }
 
-.prof {
-    font-size: auto;
-    text-align: center;
-    height: auto;
-    background-image: url(/img/backimg.jpg);
-    background-size: cover;
+.fade-in-bottom {
+    opacity: 0;
+    animation-name: fadein-bottom;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
-
-.back-screen {
-    margin-right: auto;
-    margin-left: auto;
-    background-color: rgba(255, 255, 255, 0.733);
-    padding-bottom: 20px;
-    .skill {
-        padding-top: 20px;
+@keyframes fadein-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
     }
-    section {
-        width: 450px;
-        margin-left: auto;
-        margin-right: auto;
-        border: 1px solid rgba(128, 128, 128, 0.466);
-        border-radius: 10px;
-        font-weight: normal;
-        text-align: left;
-        background-color: white;
-    }
-    ul {
-        list-style: none;
-    }
-    p {
-        line-height: 1.8;
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -104,8 +84,7 @@ footer {
     p {
         text-align: center;
         font-size: 14px;
-        margin-top: 30px;
         margin-bottom: 60px;
-        color: grey;
+        color: rgba(128, 128, 128, 0.63);
     }
 }
