@@ -56,19 +56,6 @@ header .sns-nav ul li {
   font-weight: bold;
 }
 
-/*.main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: url(/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg) top center / cover no-repeat;
-    h2 {
-        margin: 0;
-        font-size: 30px;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-    }
-}*/
 .fade-in-bottom {
   opacity: 0;
   -webkit-animation-name: fadein-bottom;
@@ -130,9 +117,10 @@ header .sns-nav ul li {
   position: relative;
   z-index: 1;
   height: 500px;
-  background: #434040;
+  background: rgba(44, 42, 42, 0.8);
   font-size: 30px;
   padding: 50px 100px;
+  text-align: center;
 }
 
 .contents h2 {

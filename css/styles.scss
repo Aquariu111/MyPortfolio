@@ -48,20 +48,6 @@ header {
     }
 }
 
-/*.main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: url(/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg) top center / cover no-repeat;
-    h2 {
-        margin: 0;
-        font-size: 30px;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-    }
-}*/
-
 .fade-in-bottom {
     opacity: 0;
     animation-name: fadein-bottom;
@@ -81,20 +67,21 @@ header {
     }
 }
 
-.para {//パララックス
+.para {
+    //パララックス
     position: relative;
-    background-image: url('/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg');
-    height: 100vh; 
+    background-image: url("/img/jerry-zhang-bcW3NDWHMwc-unsplash.jpg");
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     h2 {
-        color:#fff;
+        color: #fff;
         font-size: 80px;
         text-align: center;
         position: fixed;
-        width :100%;
+        width: 100%;
         top: 40%;
     }
 }
@@ -102,17 +89,22 @@ header {
 .contents {
     position: relative;
     z-index: 1;
-    height:500px;
-    background: rgb(67, 64, 64);
-    font-size:30px;
+    height: 500px;
+    background:rgba($color: #2c2a2a, $alpha: 0.8);
+    font-size: 30px;
     padding: 50px 100px;
-    h2{
+    text-align: center;
+    h2 {
         text-align: center;
     }
-    ul{
+    ul {
         list-style: none;
     }
-    }
+}
+
+form {
+
+}
 
 footer {
     p {
